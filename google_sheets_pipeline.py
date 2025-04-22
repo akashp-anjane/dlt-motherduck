@@ -15,7 +15,7 @@ def load_pipeline_with_ranges(
         pipeline_name="google_sheets_pipeline",
         destination='motherduck',
         dev_mode=True,
-        dataset_name="Employee-2",
+        dataset_name="Employee-3",
     )
     data = google_spreadsheet(
         spreadsheet_url_or_id=spreadsheet_url_or_id,
